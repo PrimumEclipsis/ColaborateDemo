@@ -1,0 +1,24 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IcalDemo", "IcalDemo.csproj", "{F034ACF5-E036-E6F2-A53D-4051BE9DDBFF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F034ACF5-E036-E6F2-A53D-4051BE9DDBFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F034ACF5-E036-E6F2-A53D-4051BE9DDBFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F034ACF5-E036-E6F2-A53D-4051BE9DDBFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F034ACF5-E036-E6F2-A53D-4051BE9DDBFF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {86D72A0D-9EC0-4046-86C2-B82ED4FCA19B}
+	EndGlobalSection
+EndGlobal
