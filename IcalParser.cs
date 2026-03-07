@@ -11,6 +11,7 @@ namespace IcalDemo
             var events = new List<Event>();
             Event current = null;
 
+            // Здесь просматриваются каждые строки и по началу определяется, какой это отсек файла
             foreach (var line in File.ReadLines(filePath))
             {
                 if (line.StartsWith("BEGIN:VEVENT"))
