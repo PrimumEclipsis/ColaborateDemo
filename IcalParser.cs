@@ -35,7 +35,7 @@ namespace IcalDemo
 
         private DateTime ParseDate(string value)
         {
-            return DateTime.Parse(value);
+            return DateTime.ParseExact(value, "yyyyMMdd'T'HHmmss", null);
         }
     }
 }
