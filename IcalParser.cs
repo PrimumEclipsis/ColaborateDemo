@@ -35,6 +35,8 @@ namespace IcalDemo
 
         private DateTime ParseDate(string value)
         {
+            // функция parseExact позволяет работать с нашим типом данных,
+            // в отличие от parse
             return DateTime.ParseExact(value, "yyyyMMdd'T'HHmmss", null);
         }
     }
