@@ -26,7 +26,7 @@ namespace IcalDemo
                 else if (line.StartsWith("DTEND:"))
                     current.End = ParseDate(line.Replace("DTEND:", ""));
 
-                else if (line.StartsWith("END:VEVENT"))
+                else if (line.StartsWith("END:VEVENT")) // когда появляется строка end, то событие добавляется в общий список
                     events.Add(current);
             }
 
